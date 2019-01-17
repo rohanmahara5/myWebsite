@@ -1,0 +1,29 @@
+.owl-carousel .nav-btn{
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 25px !important;
+  border:solid black;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+pointer-events: none;s
+opacity: 0.2;
+}
+
+.owl-carousel .prev-slide{
+  background: url(img/left.png) no-repeat scroll 0 0;
+  left: -10px;
+}
+.owl-carousel .next-slide{
+  background: url(<i class="fas fa-chevron-left"></i>) no-repeat scroll -24px 0px;
+  right: -10px;
+}
+.owl-carousel .prev-slide:hover{
+ background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover{
+background-position: -24px -53px;
+}   	

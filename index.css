@@ -1,0 +1,191 @@
+body{
+	margin:5px;
+	font-family:sans-serif;
+}
+
+.nav-item{
+	
+	list-style:none;
+	display:inline;
+	padding-right:30px;
+	
+}
+.nav-item a{
+	text-decoration:none;
+	color:white;
+	
+}
+.nav-items a:hover{
+	color:red;
+	
+	font-size:20px;
+	text-decoration:none;
+}
+
+
+.wrapper1{
+	margin-top:5px;
+	padding-top:10px;
+	
+	}
+	
+.wrap2 li{
+	display:inline;
+	font-style:italic;
+	border-top:none;
+	color:black;
+	
+}
+.wrap2 ul{
+	padding-left:0px;
+}
+.wrap2 p{
+	text-align:justify;
+}
+
+.wrapper2{
+	
+	
+	margin-top:5px;
+	
+	
+	
+}
+ 
+.wrapper2 p{
+	padding-top:8px;
+}
+
+.wrap2 botton{
+      
+}
+
+.wrapper2 button{
+	padding-bottom:3px;
+	margin-left:25px;
+}
+
+.logo  img{
+	height:100px;
+	width:100px;
+
+}
+.logo h2{
+	font-family:sans-serif;
+	display:inline;
+}
+
+form{
+	padding-top:20px
+
+}
+.social{
+	padding-top:20px;
+}
+
+footer img{
+	height:100px;
+	width:100px;
+	
+	margin-left:30px;
+}
+
+footer{
+	background:#212121;
+	padding-top:10px;
+	margin:10px;
+	
+}
+
+.about p{
+	color:grey;
+	
+	text-align:justify;
+}
+
+footer .about{
+	padding:20px;
+	margin-left:10px;
+}
+
+footer .quicklink{
+	padding:10px;
+	padding-left:20px;
+}
+
+.quicklink li{
+	list-style:none;
+	margin-left:0px;
+
+	
+}
+.quicklink li a{
+	color:grey;
+	text-decoration:none;
+	padding-left:0px;
+}
+
+.quicklink li a:hover{
+	color:white;
+
+
+
+}
+.quicklink ul{
+	padding-left:0px;
+	}
+
+footer .quicklink{
+	padding-top:60px;
+	padding-left:50px;
+}
+footer h4{
+	color:white;
+	font-size:20px;
+	font-family:
+}
+
+hr{
+	color:white;
+}
+
+.copyright{
+	color:grey;
+}
+	
+
+.owl-carousel .nav-btn{
+  height: 47px;
+  
+  width: 26px;
+  cursor: pointer;
+  top: 50px !important;
+
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+pointer-events: none;
+}
+
+.owl-carousel .prev-slide{
+  background: url(img/back.jpg) no-repeat scroll ;
+  left: -10px;
+}
+.owl-carousel .next-slide{
+  background: url(img/front.jpg) no-repeat scroll;
+  right: -15px;
+}
+  	
+
+.searchIcon{
+	transform:translate(0, -100%);
+	
+	padding-bottom:10px;
+	
+	
+}
+
+form button{
+	position:absolute;
+}
